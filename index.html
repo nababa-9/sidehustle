@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <h1 class="head">Fill the form with the appropriate information</h1>
+        <fieldset>
+            <legend>Your Information</legend>
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name" class="box" required />
+                </div>
+    
+                <div class="input-box">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter email address" class="box" required />
+                </div>
+    
+                <div class="column">
+                    <div class="input-box">
+                        <label>Phone Number</label>
+                        <input type="number" placeholder="Enter phone number" class="box" required />
+                    </div>
+                </div>
+    
+                <div class="gender-box">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender" />
+                            <label for="check-male">Male</label>
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender" />
+                            <label for="check-female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <button>Submit</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
